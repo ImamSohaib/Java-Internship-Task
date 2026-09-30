@@ -9,7 +9,6 @@ A collection of Java console applications developed as part of the Java Programm
 - **Task-03:** File-Based Library Management System
 - **Task-04:** Employee Management System
 
----
 
 ## Task Details & Features
 
@@ -32,8 +31,6 @@ A library system that persists book records across application restarts using lo
 A management system for employee records with multi-field searching capabilities.
 - **Features:** Full CRUD operations and multi-attribute search (by name or department).
 - **Key Concepts:** Data modeling, defensive programming, exception handling.
-
----
 
 ## How to Run
 1. Open any task directory (`Task-01`, `Task-02`, etc.).
