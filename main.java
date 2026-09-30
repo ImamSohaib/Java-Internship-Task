@@ -46,9 +46,9 @@ class BankAccount {
     }
 
     public void displayAccountInfo() {
-        System.out.println("\n--- Account Details ---");
-        System.out.println("Account Number : " + accountNumber);
-        System.out.println("Account Holder : " + accountHolderName);
+        System.out.println("\nAccount Details:");
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Account Holder: " + accountHolderName);
         System.out.println("Current Balance: $" + balance);
     }
 }
@@ -58,9 +58,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         BankAccount account = null;
 
-        System.out.println("==========================================");
-        System.out.println("  WELCOME TO BANK MANAGEMENT SYSTEM       ");
-        System.out.println("==========================================");
+        System.out.println("BANK MANAGEMENT SYSTEM");
 
         while (true) {
             System.out.println("\nSelect an option:");
